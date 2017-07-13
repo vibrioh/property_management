@@ -40,7 +40,7 @@ app = Flask(__name__, template_folder=tmpl_dir)
 #     DATABASEURI = "postgresql://biliris:foobar@104.196.18.7/w4111"
 #
 DATABASEURI = "postgresql://xl2672:1157@104.196.18.7/w4111" ## cloud
-# DATABASEURI = "postgresql://vibrioh:*&)^%*&^%@localhost/PropertyManagement" ## local
+# DATABASEURI = "postgresql://vibrioh:asdfjkl@localhost/PropertyManagement" ## local
 
 
 #
@@ -395,7 +395,7 @@ def add():
     spool.close()
     print "tuples look like:"
     print ssnl
-    if len(ssnl) >= 1:
+    if len(ssnl) == 1:
         ossn += '(1)'
         print ossn
     engine.execute("INSERT INTO Owners VALUES (%s,%s,%s)", ossn, ofname,olname)

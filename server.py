@@ -35,7 +35,7 @@ app = Flask(__name__, template_folder=tmpl_dir)
 #     DATABASEURI = "postgresql://biliris:foobar@104.196.18.7/w4111"
 #
 DATABASEURI = "postgresql://xl2672:1157@104.196.18.7/w4111" ## cloud
-# DATABASEURI = "postgresql://vibrioh:$#%)$%(@localhost/PropertyManagement" ## local
+# DATABASEURI = "postgresql://vibrioh:asdfjkl@localhost/PropertyManagement" ## local
 
 
 #

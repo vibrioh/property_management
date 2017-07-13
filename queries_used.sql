@@ -126,12 +126,12 @@ UPDATE lists
 SET agnt_id = 'agnt2'
 WHERE prpt_id = 'prpt84';
 
-DELETE FROM prices p WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734' OR prpt_id = 'prpt735';
-DELETE FROM States s WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734' OR prpt_id = 'prpt735';
-DELETE FROM blongs B WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734' OR prpt_id = 'prpt735';
-DELETE FROM lists L WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734' OR prpt_id = 'prpt735';
-DELETE FROM properties P WHERE P.prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734' OR prpt_id = 'prpt735';
-DELETE FROM owners O WHERE O.onr_ssn = '897-39-2847' OR onr_ssn ='111-22-3333(1)' OR onr_ssn = '234-23-3333' OR onr_ssn = '123-45-6789' OR onr_ssn = '123-45-6789(1)';
+DELETE FROM prices p WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734';
+DELETE FROM States s WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734';
+DELETE FROM blongs B WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734';
+DELETE FROM lists L WHERE prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734';
+DELETE FROM properties P WHERE P.prpt_id = 'prpt731' OR prpt_id = 'prpt732' OR prpt_id = 'prpt733' OR prpt_id = 'prpt734';
+DELETE FROM owners O WHERE O.onr_ssn = '111-11-1111' OR onr_ssn ='111-11-1111(1)';
 
 
 
