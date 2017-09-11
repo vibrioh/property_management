@@ -8,10 +8,10 @@ psql -Uxl2672 -h 104.196.18.7 -d w4111
 ```
 ### Group UNI
 ```bash
-Jun Hu (jh3846)& Xiyan Liu (xl2672)
+Jun Hu (jh3846) & Xiyan Liu (xl2672)
 ```
 ### URL
-[http://35.185.162.213:8111/]
+[http://35.185.162.213:8111/] (expired)
 
 ### Implementation
 We have implemented all the features in Part1, and made the web application interact with all the data in Part 2. In below, ```Web Map``` shows all the main features of our website.
